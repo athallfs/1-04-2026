@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Desktop*/
+@media only screen and (max-width: 1200px) {
+    body{
+        background-color: lightblue
+    }
+    h1{
+       font-size:xx-large
+    }
+    p{
+        background-color: lightgray;
+    }
+}
+
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+    body{
+        background-color:cornsilk
+    }
+    h1{
+       font-size: medium;
+    }
+    p{
+        background-color: snow;
+    }
+}
+
+/*HP*/
+@media (max-width: 480px) {
+  body{
+    background-color: rgb(114, 120, 122);
+  }
+    h1 {
+    font-size:small
+  }
+  p {
+    background-color: rgb(177, 36, 36);
+  }
+}
